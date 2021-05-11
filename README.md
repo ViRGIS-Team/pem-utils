@@ -13,6 +13,7 @@ PEM files are commonly used to exchange public or private key data.
 Currently files with these headers are supported:
 
 * `----- BEGIN PUBLIC KEY -----` / `----- END PUBLIC KEY -----`
+* `----- BEGIN RSA PUBLIC KEY -----` / `----- END RSA PUBLIC KEY -----` (Read Only)
 * `----- BEGIN RSA PRIVATE KEY -----` / `----- END RSA PRIVATE KEY -----`
 
 ## Get it on [NuGet](https://www.nuget.org/packages/PemUtils/)
