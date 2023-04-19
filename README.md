@@ -1,8 +1,8 @@
 # PEM-utils
 
-[![Build status](https://ci.appveyor.com/api/projects/status/6236saxpg3or6kdl/branch/master?svg=true)](https://ci.appveyor.com/project/huysentruitw/pem-utils/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/6236saxpg3or6kdl/branch/master?svg=true)](https://ci.appveyor.com/project/huysentruitw/pem-utils/branch/master) [![openupm](https://img.shields.io/npm/v/com.virgis.pem-utils?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.virgis.pem-utils/)
 
-Managed .NET (C#) utility library for working with PEM files with DER/ASN.1 encoding.
+Unity C# utility library for working with PEM files with DER/ASN.1 encoding.
 
 This project has 2 separate libraries:
 * DerConverter - for converting ASN.1 syntax from/to binary data
@@ -16,13 +16,9 @@ Currently files with these headers are supported:
 * `----- BEGIN RSA PUBLIC KEY -----` / `----- END RSA PUBLIC KEY -----` (Read Only)
 * `----- BEGIN RSA PRIVATE KEY -----` / `----- END RSA PRIVATE KEY -----`
 
-## Get it on [NuGet](https://www.nuget.org/packages/PemUtils/)
+# Install
 
-    PM> Install-Package PemUtils
-
-or if you only want a [DER converter](https://www.nuget.org/packages/DerConverter/):
-
-    PM> Install-Package DerConverter
+This is a UPM and can be installed from [OpenUPM](https://openupm.com/packages/com.virgis.pem-utils/) or as a GIT repositoory.
 
 ## Usage
 
