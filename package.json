@@ -1,6 +1,6 @@
 {
   "name": "com.virgis.pem-utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "displayName": "PEM Utils",
   "description": "Utility for working with PEM files and DER/ASN.1 encoding",
   "unity": "2018.1",
@@ -17,8 +17,5 @@
     "email": "info@virgis.org",
     "url": "https://www.virgis.org"
   },
-  "hideInEditor": false,
-  "dependencies": {
-  }
+  "hideInEditor": false
 }
-
